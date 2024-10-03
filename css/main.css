@@ -792,6 +792,7 @@
         padding: 1px;
         border-radius: 0px;
         z-index: 2;
+        opacity: 90%;
     }
 
     .div-cab-esq {
@@ -857,7 +858,7 @@
     }
 
     #banner1 {
-        height: 110%;
+        height: 100%;
         width: 100%;
         margin-top: -45px;
     }
