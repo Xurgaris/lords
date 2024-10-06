@@ -12,7 +12,7 @@
         background-color: 0;
         display: flex;
         position: fixed;
-        margin-top: -65px;
+      
     }
 
     .main-esquerdo {
@@ -47,11 +47,11 @@
     }
 
     .conteiner {
-        margin-top: 65px;
+        
     }
 
     .pagina1 {
-        height: auto;
+        height: 100vh;
         align-items: center;
         justify-content: center;
         display: flex;
@@ -59,10 +59,9 @@
     }
 
     .pagina1 h1 {
-        margin-top: -240px;
+        margin-top: -290px;
         color: #ffffff;
         margin-bottom: -10px;
-    
         margin-left: 20px;
         font-size: 20px;
     }
@@ -93,7 +92,7 @@
         display: none;
     }
     #banner1-celular{
-        width: 100%;
+        height: 100%;
         
     }
 
