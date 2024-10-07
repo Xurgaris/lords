@@ -1,16 +1,12 @@
-let count = 1;
-
-document.getElementById("radio1").checked = true;
-
-setInterval(function () {
-    nextImage();
-}, 3000)
-
-function nextImage() {
-    count++
-    if (count > 4) {
-        count = 1
+// Menu Hamburger
+function clickMenu(){
+    if(menu.style.display == "block"){
+        menu.style.display = "none"
+        menu.style.color = "#fff"
+        
     }
-
-    document.getElementById("radio"+count).checked = true
+    else{
+        menu.style.display = "block"
+        menu.style.color = "#fff"
+    }
 }
