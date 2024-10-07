@@ -375,7 +375,7 @@
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
 
-    #banner1-celular,#menubar,#banner1-cel-produto{
+    #banner1-celular,#menubar,#banner1-cel-produto,.nav{
         display: none;
     }
 
@@ -688,7 +688,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
 
-    #banner1-celular,#menubar,#banner1-cel-produto{
+    #banner1-celular,#menubar,#banner1-cel-produto,.nav{
         display: none;
     }
 
