@@ -1,5 +1,6 @@
 @media screen and (max-width: 766px) {
     body {
+        background-color: #000;
         border: 0;
         margin: 0;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -12,7 +13,7 @@
         background-color: 0;
         display: flex;
         position: fixed;
-        margin-top: -90px;
+        margin-top: -50px;
     }
 
 
@@ -102,7 +103,7 @@
     }
 
     .conteiner {
-        margin-top: 90px;
+        margin-top: 50px;
     }
 
     .pagina1 {
@@ -112,28 +113,25 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background-color: #3c3b3b;
+        
         padding-bottom: 30px;
     }
 
     .pagina1 h1 {
         color: #fff;
         margin-bottom: -10px;
-        margin-left: 20px;
         font-size: 20px;
     }
 
     #text-produto {
         color: #fff;
         width: 300px;
-        margin-left: 20px;
         margin-top: 10px;
         text-align: center;
 
     }
 
     #btn-saibamais {
-        margin-left: 20px;
         border: none;
         border-radius: 20px;
         padding: 5px;
@@ -151,6 +149,7 @@
     #banner1-celular{
         height: 100%;
         width: 100%;
+        margin-top: -90px;
     }
     #banner1-cel-produto{
         height: 240px;
@@ -163,8 +162,7 @@
         height: 100%;
         align-items: center;
         justify-content: center;
-        background-color: #fff;
-        margin-top: 1px;
+        margin-top: 70px;
     }
 
     .painel {
@@ -178,19 +176,25 @@
     }
 
     .son-painel {
-        width: 50%;
+        width: 90%;
         height: 100%;
+        background-color: #212121;
+        border-radius: 20px;
+        padding-bottom: 10px;
     }
 
     .son-painel h1 {
         font-size: 20px;
+        color: #fff;
+    }
+    .son-painel span {
+        color: #fff;
     }
 
 
     .pagina3 {
         height: auto;
         width: 100%;
-        background-color: #212121;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -210,12 +214,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        text-align: center;
+        text-align: justify;
         margin-right: 0px;
     }
 
     #titulo-p3{
-        margin-top: -20px;
+        margin-top: -0px;
         margin-bottom: -10px;
         color: #fff;
         font-size: 17px;
@@ -248,7 +252,7 @@
     }
 
     #titulo-p4{
-        color: #000;
+        color: #fff;
         font-size: 20px;
     }
 
@@ -268,21 +272,25 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: solid 1px #0000002a;
+        border: solid 1px #fff;
         height: 350px;
         width: 300px;
         border-radius: 20px;
     }
 
+    .son-produtos h2{
+        color: #fff;
+    }
+
     #nome-produto {
         font-size: 20px;
         margin-bottom: -5px;
-        color: #000;
+        color: #fff;
     }
 
     #valor-produto {
         font-size: 35px;
-        color: #000;
+        color: #fff;
     }
 
     #btn-comprar {
@@ -324,6 +332,11 @@
 
     .sub-pagina5 h1 {
         font-size: 20px;
+        color: #fff;
+    }
+    .sub-pagina5 p {
+        text-align: justify;
+        color: #fff;
     }
 
     .sub-pagina5 img {
@@ -683,6 +696,7 @@
 
 @media screen and (min-width: 1024px) {
     body {
+        background-color: #000;
         border: 0;
         margin: 0;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -693,13 +707,14 @@
     }
 
     header {
-        background-color: #ffffff;
+        background-color: #fff;
         width: 100%;
         height: 60px;
         background-color: 0;
         display: flex;
         position: fixed;
         margin-top: -60px;
+
     }
 
     .main-esquerdo {
@@ -761,7 +776,7 @@
         margin-bottom: -10px;
         background-color: #EF3045;
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 35px;
     }
 
     #text-produto {
@@ -795,6 +810,8 @@
         align-items: center;
         justify-content: center;
         height: 200px;
+        background-color: #000;
+        margin-top: 30px;
     }
 
     .painel {
@@ -810,20 +827,27 @@
     .son-painel {
         width: 50%;
         height: 100%;
+        background-color: #2121215d;
+        border-radius: 20px;
     }
 
     .son-painel h1 {
         font-size: 20px;
         margin-top: 40px;
+        color: #fff;
+    }
+    .son-painel span {
+        color: #fff;
     }
 
 
     .pagina3 {
         height: 400px;
         width: 100%;
-        background-color: #212121;
+        background-color: #000;
         display: flex;
         justify-content: space-between;
+        margin-top: 50px;
     }
 
     .pagina3 img {
@@ -870,7 +894,7 @@
     }
 
     #titulo-p4 {
-        color: #000;
+        color: #fff;
     }
 
     .main-produtos {
@@ -888,21 +912,25 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: solid 1px #0000002a;
+        border: solid 1px #fff;
         height: 500px;
         width: 400px;
         border-radius: 20px;
     }
 
+    .son-produtos h2{
+        color: #fff;
+    }
+
     #nome-produto {
         font-size: 20px;
         margin-bottom: -5px;
-        color: #000;
+        color: #fff;
     }
 
     #valor-produto {
         font-size: 35px;
-        color: #000;
+        color: #fff;
     }
 
     #btn-comprar {
@@ -940,10 +968,16 @@
 
     .sub-pagina5 h1 {
         font-size: 20px;
+        color: #fff;
     }
+    
 
     .sub-pagina5 img {
         height: 90px;
+    }
+
+    .sub-pagina5 p{
+        color: #fff;
     }
 
     .pagina6 {
