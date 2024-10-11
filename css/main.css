@@ -12,7 +12,7 @@
         background-color: 0;
         display: flex;
         position: fixed;
-        margin-top: -50px;
+        margin-top: -90px;
     }
 
 
@@ -102,7 +102,7 @@
     }
 
     .conteiner {
-        margin-top: 50px;
+        margin-top: 90px;
     }
 
     .pagina1 {
@@ -112,25 +112,28 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background-color: #fff;
+        background-color: #3c3b3b;
         padding-bottom: 30px;
     }
 
     .pagina1 h1 {
-        color: #000;
+        color: #fff;
         margin-bottom: -10px;
+        margin-left: 20px;
         font-size: 20px;
     }
 
     #text-produto {
-        color: #000;
+        color: #fff;
         width: 300px;
+        margin-left: 20px;
         margin-top: 10px;
         text-align: center;
 
     }
 
     #btn-saibamais {
+        margin-left: 20px;
         border: none;
         border-radius: 20px;
         padding: 5px;
@@ -191,15 +194,15 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-
+        align-items: center;
         margin-top: 30px;
         margin-bottom: 30px;
         padding-bottom: 30px;
     }
 
     .pagina3 img{
-        height: 320px;
-        width: 320px;
+        height: 300px;
+        margin-right: 30px;
     }
 
     .son-p3{
@@ -207,12 +210,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        text-align: justify;
+        text-align: center;
         margin-right: 0px;
     }
 
     #titulo-p3{
-        margin-top: -10px;
+        margin-top: -20px;
         margin-bottom: -10px;
         color: #fff;
         font-size: 17px;
