@@ -112,28 +112,25 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background-color: #3c3b3b;
         padding-bottom: 30px;
     }
 
     .pagina1 h1 {
         color: #fff;
         margin-bottom: -10px;
-        margin-left: 20px;
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: -40px;
+        background-color: #3333337a;
     }
 
     #text-produto {
-        color: #fff;
-        width: 300px;
-        margin-left: 20px;
+        color: #ffffff;
         margin-top: 10px;
         text-align: center;
-
+        background-color: #3333337a;
     }
 
     #btn-saibamais {
-        margin-left: 20px;
         border: none;
         border-radius: 20px;
         padding: 5px;
@@ -149,13 +146,13 @@
         display: none;
     }
     #banner1-celular{
-        height: 100%;
-        width: 100%;
+        height: 160%;
+        width: 160%;
     }
     #banner1-cel-produto{
-        height: 240px;
-        margin-top: -140px;
-        margin-bottom: -50px;
+        height: 290px;
+        margin-top: -490px;
+        
     }
 
     .pagina2 {
@@ -164,7 +161,9 @@
         align-items: center;
         justify-content: center;
         background-color: #fff;
-        margin-top: 1px;
+        
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
 
     .painel {
