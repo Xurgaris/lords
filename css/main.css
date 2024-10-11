@@ -13,7 +13,7 @@
         background-color: 0;
         display: flex;
         position: fixed;
-        margin-top: -50px;
+        margin-top: -140px;
     }
 
 
@@ -103,7 +103,7 @@
     }
 
     .conteiner {
-        margin-top: 50px;
+        margin-top: 140px;
     }
 
     .pagina1 {
