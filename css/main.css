@@ -121,6 +121,8 @@
         font-size: 30px;
         margin-top: -40px;
         background-color: #3333337a;
+        align-items: center;
+        justify-content: center;
     }
 
     #text-produto {
