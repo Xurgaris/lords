@@ -215,7 +215,6 @@
         justify-content: center;
         flex-direction: column;
         text-align: justify;
-        margin-right: 0px;
     }
 
     #titulo-p3{
@@ -226,7 +225,7 @@
 
     #texto-p3{
         color: #fff;
-        width: 300px;
+        width: 390px;
     }
     #btn-p3{
         border: none;
