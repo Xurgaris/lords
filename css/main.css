@@ -12,7 +12,7 @@
         background-color: 0;
         display: flex;
         position: fixed;
-        margin-top: -90px;
+        margin-top: -50px;
     }
 
 
@@ -102,7 +102,7 @@
     }
 
     .conteiner {
-        margin-top: 90px;
+        margin-top: 50px;
     }
 
     .pagina1 {
@@ -112,18 +112,18 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background-color: #3c3b3b;
+        background-color: #fff;
         padding-bottom: 30px;
     }
 
     .pagina1 h1 {
-        color: #fff;
+        color: #000;
         margin-bottom: -10px;
         font-size: 20px;
     }
 
     #text-produto {
-        color: #fff;
+        color: #000;
         width: 300px;
         margin-top: 10px;
         text-align: center;
@@ -199,6 +199,7 @@
 
     .pagina3 img{
         height: 320px;
+        width: 320px;
     }
 
     .son-p3{
@@ -206,12 +207,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        text-align: center;
+        text-align: justify;
         margin-right: 0px;
     }
 
     #titulo-p3{
-        margin-top: -20px;
+        margin-top: -10px;
         margin-bottom: -10px;
         color: #fff;
         font-size: 17px;
